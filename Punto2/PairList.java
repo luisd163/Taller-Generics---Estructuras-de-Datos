@@ -1,3 +1,4 @@
+package Punto2;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,7 +15,7 @@ public class PairList<K, V> {
         if (clave == null || valor == null){
             System.out.println("Argumentos invalidos");
         }
-        Pair par = new Pair<K,V>(clave, valor);
+        Pair<K, V> par = new Pair<K,V>(clave, valor);
 
         lista_pares.add(par);
     }

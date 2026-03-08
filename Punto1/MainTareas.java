@@ -1,3 +1,4 @@
+package Punto1;
 public class MainTareas {
     public static void main(String[] args) {
         ListaDeTareas listaTareas = new ListaDeTareas();

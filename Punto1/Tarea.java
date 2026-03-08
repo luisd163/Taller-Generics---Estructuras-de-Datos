@@ -1,3 +1,4 @@
+package Punto1;
 public class Tarea implements Comparable<Tarea>{
 
     private String descripcion;
